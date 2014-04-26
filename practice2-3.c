@@ -11,4 +11,8 @@ int main(void)
 {
   double n;
 
-  printf("请输入一个实数:"); scanf("%lf", &n);}
+  printf("请输入一个实数:", n); scanf("%lf", &n);
+  printf("您输入的是:%lf\n", n);
+
+  return(0);
+}
